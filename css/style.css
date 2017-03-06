@@ -9,18 +9,60 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold:
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
+  /*background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");*/
+  background-image: url("the-flatiron-building.jpg");
+  background-position: 60% 50%;
+  background-size: cover;
 }
 
 .navLinks {
+  font-family: Helvetica;
+  font-size: 18px;
   color: white;
 }
 
+/*.footNav {
+  color: white;
+}*/
+
 #designed {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");
+  background-image: url("the-flatiron-building.jpg");
+  /*background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg");*/
+  background-position: 60% 50%;
+  background-size: cover;
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
 }
 
 #footer {
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgrey;
   text-align: left;
+}
+
+#footer a {
+  color: white;
+  /*font-size: 18px;*/
 }
